@@ -1,0 +1,8 @@
+﻿int numberA = 10;
+int numberB = 5;
+Console.WriteLine(numberA / numberB);
+
+double numberC = 12;
+double numberD = 5;
+double result = numberC / numberD;
+Console.WriteLine(result);
