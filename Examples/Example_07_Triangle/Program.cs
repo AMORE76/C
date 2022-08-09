@@ -1,9 +1,9 @@
-﻿//Console.Clear();//
+﻿/*Console.Clear();*/
 
 int 
-xa = 16, ya = 1,
-xb = 1, yb = 30,
-xc = 32, yc = 32;
+xa = 24, ya = 1,
+xb = 1, yb = 12,
+xc = 48, yc = 12;
 
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
@@ -28,7 +28,7 @@ while (count < 10000)
         y = (y+ya)/2;
     }
 
-     if (what == 2)
+     if (what == 1)
     {
         x = (x+xb)/2;
         y = (y+yb)/2;
@@ -39,9 +39,9 @@ while (count < 10000)
         x = (x+xc)/2;
         y = (y+yc)/2;
     }
-}
 
 Console.SetCursorPosition(x, y);
 Console.WriteLine("+");
 count = count + 1;
+}
 
